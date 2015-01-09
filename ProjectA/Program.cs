@@ -16,7 +16,7 @@ namespace ProjectA
         {
             IKernel kernel = new StandardKernel(new ModuleBinding());
 
-            ClassA a = new ClassA(kernel.Get<IDependencyInversion1>);
+            ClassA a = new ClassA(kernel.Get<IDependencyInversion1>());
             a.Method1();
             a.Method2();
             a.Method3();

@@ -10,15 +10,16 @@ namespace Package1
     {
         IDependencyInversion1 iDependencyInversion1;
 
-
-        public ClassA(IDependencyInversion1 _iDependencyInversion1)
-        {
-            iDependencyInversion1 = _iDependencyInversion1;
-        }
         public ClassA()
         {
 
         }
+        
+        public ClassA(IDependencyInversion1 _iDependencyInversion1)
+        {
+            iDependencyInversion1 = _iDependencyInversion1;
+        }
+        
         
         public void Method1()
         {
