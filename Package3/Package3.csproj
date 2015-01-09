@@ -50,6 +50,12 @@
     <Compile Include="IInterfaceSomething.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Package1\Package1.csproj">
+      <Project>{2bb5ed6d-0793-4250-bd3d-b2a6a59a71a7}</Project>
+      <Name>Package1</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

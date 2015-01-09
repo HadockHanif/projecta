@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Package1
+namespace Package3
 {
     public interface IInterfaceSomething
     {

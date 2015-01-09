@@ -9,10 +9,17 @@ namespace Package1
     class ClassF
     {
         private ClassA _a;
+        IDependencyInversion iDI;
+
+        public ClassF(IDependencyInversion _iDI)
+        {
+            iDI = _iDI;
+        }
 
         public ClassF()
         {
-            _a = new ClassA();
+            
+            _a = new ClassA(iDI);
         }
 
         public void Method1()

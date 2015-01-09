@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassM : IInterfaceSomething
+    public class ClassM //: IInterfaceSomething
     {
+
+        IDependencyInversion iDependencyInversion;
+
+        
         public void Method2()
         {
 
@@ -18,12 +22,14 @@ namespace Package1
 
         }
 
-        public void Method7()
+        //int ret = iDependencyInversion.MethodX();
+
+        /*public void Method7()
         {
         }
 
         public void Method8()
         {
-        }
+        }*/
     }
 }

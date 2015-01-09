@@ -48,15 +48,10 @@
     <Compile Include="ClassT.cs" />
     <Compile Include="ClassU.cs" />
     <Compile Include="ClassX.cs" />
+    <Compile Include="IDependencyInversion.cs" />
     <Compile Include="IInterfaceE.cs" />
     <Compile Include="IInterfaceP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Package3\Package3.csproj">
-      <Project>{3cdde3b9-5f54-4c98-8026-6f06de2e8ce9}</Project>
-      <Name>Package3</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
