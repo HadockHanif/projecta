@@ -15,7 +15,9 @@ namespace ProjectA
     {
         public override void Load()
         {
-            Bind<IDependencyInversion>().To<ClassY>();
+            //Bind<IInterfaceSomething>().To<ClassM>();
+            Bind<IDependencyInversion1>().To<ClassS>();
+            Bind<IDependencyInversion1>().To<ClassY>();
         }
     }
 }

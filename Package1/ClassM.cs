@@ -9,7 +9,7 @@ namespace Package1
     public class ClassM //: IInterfaceSomething
     {
 
-        IDependencyInversion iDependencyInversion;
+        
 
         
         public void Method2()
@@ -22,14 +22,14 @@ namespace Package1
 
         }
 
-        //int ret = iDependencyInversion.MethodX();
+        
 
-        /*public void Method7()
+        public void Method7()
         {
         }
 
         public void Method8()
         {
-        }*/
+        }
     }
 }

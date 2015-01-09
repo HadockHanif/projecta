@@ -16,7 +16,7 @@ namespace ProjectA
         {
             IKernel kernel = new StandardKernel(new ModuleBinding());
 
-            ClassA a = new ClassA(kernel.Get<IDependencyInversion>());
+            ClassA a = new ClassA(kernel.Get<IDependencyInversion1>);
             a.Method1();
             a.Method2();
             a.Method3();
@@ -46,8 +46,8 @@ namespace ProjectA
             ClassM m = new ClassM();
             m.Method2();
             m.Method3();
-            //m.Method7();
-            //m.Method8();
+            m.Method7();
+            m.Method8();
 
             ClassN n = new ClassN();
             n.Method3();
@@ -83,7 +83,7 @@ namespace ProjectA
             ClassV v = new ClassV();
             v.Method2();
 
-            ClassW w = new ClassW(kernel.Get <IDependencyInversion>());
+            ClassW w = new ClassW(kernel.Get <IInterfaceSomething>());
             w.Method2();
             w.Method3();
 

@@ -5,10 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Package1;
 
+
 namespace Package3
 {
-    public class ClassS : IDependencyInversion
+    public class ClassS : IDependencyInversion1
     {
+
+
         public void Method1()
         {
 
@@ -24,17 +27,23 @@ namespace Package3
 
         }
 
-        public int MethodX()
+
+
+
+
+        public void MethodX()
         {
             Method1();
             Method2();
             Method3();
-            return 0;
         }
 
-        public DateTime MethodY()
+        public int MethodY()
         {
-            throw new NotImplementedException();
+            return 0;   
         }
+
+
+        
     }
 }
