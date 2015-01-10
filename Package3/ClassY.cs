@@ -7,7 +7,7 @@ using Package1;
 
 namespace Package3
 {
-    public class ClassY : IDependencyInversion1
+    public class ClassY : IDependencyInversion2
     {
         public int Method2()
         {
@@ -16,12 +16,9 @@ namespace Package3
 
 
 
-        public void MethodX()
-        {
-            
-        }
+        
 
-        public int MethodY()
+        public int MethodZ()
         {
             return Method2();
         }

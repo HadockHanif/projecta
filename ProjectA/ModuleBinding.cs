@@ -17,7 +17,7 @@ namespace ProjectA
         {
             //Bind<IInterfaceSomething>().To<ClassM>();
             Bind<IDependencyInversion1>().To<ClassS>();
-            Bind<IDependencyInversion1>().To<ClassY>();
+            Bind<IDependencyInversion2>().To<ClassY>();
         }
     }
 }

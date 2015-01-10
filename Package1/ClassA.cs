@@ -9,10 +9,15 @@ namespace Package1
     public class ClassA
     {
         IDependencyInversion1 iDependencyInversion1;
+        IDependencyInversion2 iDependencyInversion2;
 
         public ClassA()
         {
 
+        }
+        public ClassA(IDependencyInversion2 _iDependencyInversion2)
+        {
+            iDependencyInversion2 = _iDependencyInversion2;
         }
         
         public ClassA(IDependencyInversion1 _iDependencyInversion1)
@@ -37,7 +42,7 @@ namespace Package1
 
         public void Method3()
         {
-            iDependencyInversion1.MethodY();    
+            iDependencyInversion2.MethodZ();    
             //ClassY y = new ClassY();
             //y.Method2();
             //Console.WriteLine(a);

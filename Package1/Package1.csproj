@@ -52,6 +52,7 @@
     <Compile Include="ClassU.cs" />
     <Compile Include="ClassX.cs" />
     <Compile Include="IDependencyInversion1.cs" />
+    <Compile Include="IDependencyInversion2.cs" />
     <Compile Include="IInterfaceE.cs" />
     <Compile Include="IInterfaceP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
