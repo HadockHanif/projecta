@@ -39,7 +39,7 @@ namespace ProjectA
             ClassH h = new ClassH();
             h.Method2();
 
-            ClassJ j = new ClassJ();
+            ClassJ j = new ClassJ(kernel.Get<IDependencyInversion3>());
             j.Method1();
 
             ClassK k = new ClassK();
@@ -54,7 +54,7 @@ namespace ProjectA
             ClassN n = new ClassN();
             n.Method3();
 
-            ClassO o = new ClassO();
+            ClassO o = new ClassO(kernel.Get<IDependencyInversion4>());
             o.Method2();
 
             ClassP p = new ClassP();
@@ -62,7 +62,7 @@ namespace ProjectA
             p.Method2();
             p.Method9();
 
-            ClassL l = new ClassL(p);
+            ClassL l = new ClassL();
             l.Method1();
 
             ClassQ q = new ClassQ();
@@ -76,7 +76,7 @@ namespace ProjectA
             s.Method2();
             s.Method3();
 
-            ClassT t = new ClassT(e);
+            ClassT t = new ClassT();
             t.Method2();
 
             ClassU u = new ClassU();

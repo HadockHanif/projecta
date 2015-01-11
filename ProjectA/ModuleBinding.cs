@@ -18,6 +18,9 @@ namespace ProjectA
             //Bind<IInterfaceSomething>().To<ClassM>();
             Bind<IDependencyInversion1>().To<ClassS>();
             Bind<IDependencyInversion2>().To<ClassY>();
+            Bind<IDependencyInversion3>().To<ClassK>();
+            Bind<IDependencyInversion4>().To<ClassT>();
+            //Bind<IInterfaceP>().To<IDependencyInversion5>();
         }
     }
 }
